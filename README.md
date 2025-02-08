@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm <a href="https://github.com/yourusername">Shabd Vasudeva</a>! 👋</h1>
+<h1 align="center">Hi there, I'm <a href="https://github.com/shabdvasudeva">Shabd Vasudeva</a>! 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=29FFDF&center=true&vCenter=true&width=500&lines=Android+Developer;Reverse+Engineer;Python+%26+C+++Enthusiast;Tech+Explorer" />
@@ -12,7 +12,7 @@
 - 📱 **Android Developer** specializing in **Jetpack Compose, Kotlin, and Java**  
 - 🕵️‍♂️ **Reverse Engineering** & **Security Enthusiast**  
 - 🐍 **Python & Automation Scripts Developer**  
-- 💡 Learning **React Native** & **Cross-Platform Development**  
+- 🌐 Proficient in **Web Development** using **HTML, CSS, JS, ReactJS**  
 - 🛠️ Open-source contributor & problem solver  
 
 ---
@@ -27,8 +27,12 @@
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4.svg?style=flat-square&logo=jetpackcompose&logoColor=white)
 ![Shell Script](https://img.shields.io/badge/Shell-4EAA25.svg?style=flat-square&logo=gnu-bash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1.svg?style=flat-square&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black)
 ![ReactJS](https://img.shields.io/badge/React-61DAFB.svg?style=flat-square&logo=react&logoColor=black)
 ![React Native](https://img.shields.io/badge/React%20Native-20232A.svg?style=flat-square&logo=react&logoColor=61DAFB)
+![Smali (Assembly)](https://img.shields.io/badge/Smali-764ABC.svg?style=flat-square&logo=android&logoColor=white)
 
 #### **Tools & Technologies**
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=flat-square&logo=android-studio&logoColor=white)
@@ -41,15 +45,15 @@
 
 ### 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=dark&count_private=true&hide=issues" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shabdvasudeva&show_icons=true&theme=dark&count_private=true&hide=issues" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shabdvasudeva&theme=dark" width="48%" />
 </p>
 
 ---
 
 ### 🌟 My Contributions  
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark&hide_border=true&custom_title=My%20GitHub%20Activity" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shabdvasudeva&theme=react-dark&hide_border=true&custom_title=My%20GitHub%20Activity" width="95%"/>
 </p>
 
 ---
@@ -68,7 +72,7 @@
     <img src="https://img.shields.io/badge/Telegram-%232CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/v_shabd_developer?igsh=MWJrZW9xYXdsd2VibA==">
-    <img src="https://img.shields.io/badge/Instagram-%233d14836.svg?style=for-the-badge&logo=instagram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
 
@@ -76,7 +80,7 @@
 
 ### 🔥 Profile Visitors  
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&color=brightgreen&style=flat-square&label=PROFILE+VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=shabdvasudeva&color=brightgreen&style=flat-square&label=PROFILE+VIEWS" />
 </p>
 
 ---
