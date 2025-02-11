@@ -45,15 +45,15 @@
 
 ### 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shabdvasudeva&show_icons=true&theme=dark&count_private=true&hide=issues" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shabdvasudeva&theme=dark" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shabdvasudeva&show_icons=true&theme=catppuccin_mocha&hide_border=true&border_radius=10&count_private=true&hide=issues&title_color=C691EB&icon_color=17EBCC&text_color=FFFFFF&bg_color=0D1117" width="48%" />
+  <img src="https://streak-stats-azure.vercel.app/?user=ShabdVasudeva&theme=catppuccin-mocha&hide_border=true&border_radius=10&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D&card_width=525&stroke=17EBCC&fire=C691EB" width="48%" />
 </p>
 
 ---
 
 ### 🌟 My Contributions  
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shabdvasudeva&theme=react-dark&hide_border=true&custom_title=My%20GitHub%20Activity" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shabdvasudeva&bg_color=1e1e2e&color=b4befe&line=94e2d5&point=cba6f7&area=true&hide_border=true&radius=16" width="95%"/>
 </p>
 
 ---
