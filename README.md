@@ -80,7 +80,7 @@
 
 ### 🔥 Profile Visitors  
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shabdvasudeva&color=0095D5&style=flat-square&label=PROFILE+VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=shabdvasudeva&color=00ffaa&style=flat-square&label=PROFILE+VIEWS" />
 </p>
 
 ---
