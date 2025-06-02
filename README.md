@@ -33,6 +33,7 @@
 ![ReactJS](https://img.shields.io/badge/React-61DAFB.svg?style=flat-square&logo=react&logoColor=black)
 ![React Native](https://img.shields.io/badge/React%20Native-20232A.svg?style=flat-square&logo=react&logoColor=61DAFB)
 ![Smali (Assembly)](https://img.shields.io/badge/Smali-764ABC.svg?style=flat-square&logo=android&logoColor=white)
+![Tensorflow](https://img.shields.io/badge/Tensorflow-3776AB.svg?style=flat-square&logo=tensorflow&logoColor=white)
 
 #### **Tools & Technologies**
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=flat-square&logo=android-studio&logoColor=white)
