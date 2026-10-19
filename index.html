@@ -6,12 +6,11 @@
 <title>Shabd Vasudeva | Android &amp; Embedded Developer</title>
 <meta name="description" content="Portfolio of Shabd Vasudeva: Android, embedded systems and reverse engineering."/>
 <meta property="og:title" content="Shabd Vasudeva | Android &amp; Embedded Developer"/>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E⚡%3C/text%3E%3C/svg%3E"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cg fill='none' stroke='%23f9f9f9' stroke-width='5.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M27 19H15V32H27V45H15'/%3E%3Cpath d='M33 19L42 45L51 19'/%3E%3C/g%3E%3Ccircle cx='54' cy='48' r='3.6' fill='%23ffe088'/%3E%3C/svg%3E"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script>
-/* Design tokens (same system as your original file, trimmed to what is used) */
 tailwind.config = { theme: { extend: {
   colors: {
     "primary":"#000000","on-primary":"#ffffff","background":"#f9f9f9","on-background":"#1a1c1c","surface":"#f9f9f9",
@@ -44,7 +43,6 @@ tailwind.config = { theme: { extend: {
   .reveal.active{opacity:1;transform:none}
   @keyframes bounceY{0%,20%,50%,80%,100%{transform:translateY(0)}40%{transform:translateY(-10px)}60%{transform:translateY(-5px)}}
   .animate-scroll{animation:bounceY 2s infinite}
-  /* Language / tool logos: grey until hover, like your original sprite icons */
   .logo{filter:grayscale(1);opacity:.85;transition:filter .3s,opacity .3s,transform .3s}
   .logo-cell:hover .logo,.item:hover .logo{filter:none;opacity:1;transform:scale(1.08)}
   #progress{position:fixed;top:0;left:0;height:2px;background:#000;width:0;z-index:60}
@@ -54,7 +52,6 @@ tailwind.config = { theme: { extend: {
 <body class="bg-background text-on-background selection:bg-secondary-fixed selection:text-on-secondary-fixed">
 <div id="progress"></div>
 
-<!-- ===== Nav (links built from DATA.nav) ===== -->
 <nav class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300" id="nav">
   <div class="flex justify-between items-center px-margin-mobile md:px-section-padding-md py-6 max-w-container-max mx-auto">
     <a class="font-headline-md text-headline-md text-primary font-bold tracking-tighter" href="#top">SV</a>
@@ -68,7 +65,6 @@ tailwind.config = { theme: { extend: {
 </nav>
 
 <main id="top">
-  <!-- ===== Hero ===== -->
   <section class="min-h-screen flex flex-col justify-center px-margin-mobile md:px-section-padding-md max-w-container-max mx-auto pt-24">
     <div class="reveal md:w-5/6">
       <span class="inline-flex items-center gap-2 border border-outline-variant/60 px-3 py-2 mb-8 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">
@@ -86,7 +82,6 @@ tailwind.config = { theme: { extend: {
     </div>
   </section>
 
-  <!-- ===== Technical Arsenal ===== -->
   <section class="py-section-padding-md px-margin-mobile md:px-section-padding-md max-w-container-max mx-auto border-t border-outline-variant/30" id="stack">
     <div class="flex flex-col md:flex-row justify-between md:items-center mb-12 gap-4">
       <h2 class="font-headline-lg text-headline-lg reveal">Technical Arsenal</h2>
@@ -96,7 +91,6 @@ tailwind.config = { theme: { extend: {
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-l border-t border-outline-variant/30 reveal" id="skills"></div>
   </section>
 
-  <!-- ===== Experience ===== -->
   <section class="py-section-padding-md px-margin-mobile md:px-section-padding-md max-w-container-max mx-auto border-t border-outline-variant/30" id="experience">
     <div class="flex justify-between items-end mb-12 border-b border-outline-variant/30 pb-4 reveal">
       <h2 class="font-headline-lg text-headline-lg">Experience</h2>
@@ -105,7 +99,6 @@ tailwind.config = { theme: { extend: {
     <div id="experienceList"></div>
   </section>
 
-  <!-- ===== Projects ===== -->
   <section class="py-section-padding-md px-margin-mobile md:px-section-padding-md max-w-container-max mx-auto" id="work">
     <div class="flex justify-between items-end mb-12 border-b border-outline-variant/30 pb-4 reveal">
       <h2 class="font-headline-lg text-headline-lg">Selected Work</h2>
@@ -114,7 +107,6 @@ tailwind.config = { theme: { extend: {
     <div class="grid grid-cols-1 lg:grid-cols-12 border-l border-t border-outline-variant/30" id="projects"></div>
   </section>
 
-  <!-- ===== Live activity ===== -->
   <section class="py-section-padding-md px-margin-mobile md:px-section-padding-md max-w-container-max mx-auto border-t border-outline-variant/30" id="activity">
     <div class="flex justify-between items-end mb-12 border-b border-outline-variant/30 pb-4 reveal">
       <h2 class="font-headline-lg text-headline-lg">Live Activity</h2>
@@ -141,7 +133,6 @@ tailwind.config = { theme: { extend: {
     </div>
   </section>
 
-  <!-- ===== Contact ===== -->
   <section class="py-section-padding-lg px-margin-mobile md:px-section-padding-md max-w-container-max mx-auto text-center border-t border-outline-variant/30" id="contact">
     <span class="material-symbols-outlined text-5xl reveal inline-block mb-8">alternate_email</span>
     <h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-12 reveal">Let's build <span class="italic font-normal">robust</span> systems together.</h2>
@@ -152,7 +143,6 @@ tailwind.config = { theme: { extend: {
   </section>
 </main>
 
-<!-- ===== Footer ===== -->
 <footer class="bg-primary w-full">
   <div class="flex flex-col md:flex-row justify-between items-start md:items-end px-margin-mobile md:px-section-padding-md py-section-padding-md gap-gutter w-full max-w-container-max mx-auto">
     <div class="flex flex-col gap-8">
@@ -168,14 +158,9 @@ tailwind.config = { theme: { extend: {
 </footer>
 
 <script>
-/* =====================================================================
-   DATA: edit this object (or drop a data.json next to this file with the
-   same keys; it overrides anything here). The page renders from it.
-   Logos: "i" is a Devicon name (https://devicon.dev). Missing logos hide.
-   ===================================================================== */
 const DATA = {
   github: "ShabdVasudeva", leetcode: "shabdvasudeva",
-  email: "shabdvasudeva@gmail.com", resume: "Shabd_Vasudeva_CV.pdf",
+  email: "shabdvasudeva@gmail.com", resume: "assets/Shabd_Vasudeva_CV.pdf",
   name: "Shabd Vasudeva", role: "Android & Embedded Developer",
   available: "Available for opportunities & open-source collaboration",
   tagline: "First-year CSE student with 4.5+ years of hands-on Android, system-level and reverse-engineering experience.",
@@ -222,7 +207,6 @@ const DATA = {
   nav: [["Stack", "#stack"], ["Experience", "#experience"], ["Work", "#work"], ["Activity", "#activity"], ["Contact", "#contact"]]
 };
 
-/* ===== Helpers ===== */
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const norm = s => s.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -232,7 +216,6 @@ const logo = (k, size = 24) => k && /^https?:/.test(k) ? `<img class="logo shrin
 window.logoFail = img => { if (!img.dataset.t && img.dataset.k) { img.dataset.t = 1; img.src = `${DEVICON}${img.dataset.k}/${img.dataset.k}-plain.svg`; } else img.replaceWith(Object.assign(document.createElement("span"), { className: "w-6 text-center text-on-surface-variant", textContent: "·" })); };
 const LANG_ICON = { Java: "java", Kotlin: "kotlin", "C++": "cplusplus", C: "c", Python: "python", JavaScript: "javascript", TypeScript: "typescript", Dart: "dart", HTML: "html5", CSS: "css3", Shell: "bash" };
 const cell = "border-r border-b border-outline-variant/30";
-/* Session cache keeps us under GitHub's unauthenticated rate limit */
 async function getJSON(url) {
   try { const c = sessionStorage.getItem(url); if (c) return JSON.parse(c); } catch {}
   const r = await fetch(url); if (!r.ok) throw new Error(r.status);
@@ -267,7 +250,6 @@ function renderStatic() {
   $("copy").textContent = `© ${new Date().getFullYear()} ${DATA.name}. Built with precision.`;
 }
 
-/* Projects re-render once GitHub repos load, so each card gets a real link + star count */
 function renderProjects(repos = {}) {
   const n = DATA.projects.length, r = Math.max(n - 2, 1), rest = r % 3 === 0 ? 4 : r % 2 === 0 ? 6 : 12;
   $("projects").innerHTML = DATA.projects.map((p, i) => {
@@ -283,7 +265,6 @@ function renderProjects(repos = {}) {
   observeReveals();
 }
 
-/* ===== Live data ===== */
 async function loadGitHub() {
   $("ghAv").src = `https://github.com/${DATA.github}.png`; $("ghName").textContent = DATA.github;
   $("ghGraph").src = `https://ghchart.rshah.org/111111/${DATA.github}`;
@@ -303,7 +284,6 @@ async function loadGitHub() {
 }
 async function loadLeetCode() {
   try {
-    /* Tries each API in order; all share the same response shape. Edit DATA.leetcodeApis to swap providers. */
     const apis = DATA.leetcodeApis || ["https://leetcode-stats.tashif.codes/", "https://leetcode-stats-api.herokuapp.com/"];
     let d = null, base = "";
     for (base of apis) {
@@ -321,7 +301,6 @@ async function loadLeetCode() {
   } catch { $("lcNote").innerHTML = `Could not load stats. <a class="underline" href="https://leetcode.com/u/${DATA.leetcode}/" target="_blank" rel="noopener">Open LeetCode</a>`; }
 }
 
-/* ===== Behaviour ===== */
 const io = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && e.target.classList.add("active")), { threshold: .1, rootMargin: "0px 0px -50px 0px" });
 const observeReveals = () => document.querySelectorAll(".reveal:not(.active)").forEach(el => io.observe(el));
 
@@ -340,7 +319,6 @@ function wire() {
   }, { passive: true });
 }
 
-/* Optional data.json overrides DATA (ignored if missing or on file://) */
 fetch("data.json").then(r => r.ok ? r.json() : {}).catch(() => ({})).then(o => {
   Object.assign(DATA, o);
   renderStatic(); renderProjects(); wire(); observeReveals();
